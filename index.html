@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizMaster | Online Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="logo">Q</div>
+      <div>
+        <h1>QuizMaster</h1>
+        <p>Test your knowledge</p>
+      </div>
+    </header>
+
+    <section id="welcome" class="panel">
+      <span class="tag">LEARN • PLAY • GROW</span>
+      <h2>Ready to challenge yourself?</h2>
+      <p>Answer questions, beat the timer, and check your score.</p>
+
+      <div class="features">
+        <div><strong id="totalLabel">10</strong><span>Questions</span></div>
+        <div><strong>15 sec</strong><span>Per question</span></div>
+        <div><strong>100%</strong><span>Your goal</span></div>
+      </div>
+
+      <label for="category">Choose a category</label>
+      <select id="category">
+        <option value="All">All Topics</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="JSON">JSON</option>
+      </select>
+
+      <button id="startBtn" class="primary">Start Quiz →</button>
+    </section>
+
+    <section id="quiz" class="panel hidden">
+      <div class="quiz-top">
+        <span id="questionCount">Question 1 of 10</span>
+        <span id="timer" class="timer">15s</span>
+      </div>
+
+      <div class="progress-track">
+        <div id="progress" class="progress"></div>
+      </div>
+
+      <span id="topic" class="tag">HTML</span>
+      <h2 id="question">Question goes here</h2>
+      <div id="answers" class="answers"></div>
+
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+
+      <div class="quiz-bottom">
+        <span id="scoreLabel">Score: 0</span>
+        <button id="nextBtn" class="primary" disabled>Next →</button>
+      </div>
+    </section>
+
+    <section id="result" class="panel hidden">
+      <div class="result-icon">🏆</div>
+      <h2 id="resultTitle">Quiz Completed!</h2>
+      <p id="resultMessage">Here is your result.</p>
+
+      <div class="result-stats">
+        <div><strong id="finalScore">0/10</strong><span>Score</span></div>
+        <div><strong id="percentage">0%</strong><span>Percentage</span></div>
+        <div><strong id="correctCount">0</strong><span>Correct</span></div>
+      </div>
+
+      <div id="review" class="review"></div>
+
+      <button id="restartBtn" class="primary">Play Again ↻</button>
+    </section>
+
+    <footer>Built with HTML, CSS, JavaScript & JSON</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

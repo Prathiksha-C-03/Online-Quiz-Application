@@ -1,0 +1,101 @@
+{
+  "title": "Web Development Quiz",
+  "timePerQuestion": 15,
+  "questions": [
+    {
+      "id": 1,
+      "category": "HTML",
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Machine Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": 0,
+      "explanation": "HTML stands for HyperText Markup Language."
+    },
+    {
+      "id": 2,
+      "category": "HTML",
+      "question": "Which tag creates a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": 1,
+      "explanation": "The a tag creates hyperlinks using the href attribute."
+    },
+    {
+      "id": 3,
+      "category": "HTML",
+      "question": "Which attribute provides alternative image text?",
+      "options": ["src", "title", "alt", "name"],
+      "answer": 2,
+      "explanation": "The alt attribute provides alternative text for an image."
+    },
+    {
+      "id": 4,
+      "category": "CSS",
+      "question": "Which property changes text color?",
+      "options": ["font-style", "background", "text-size", "color"],
+      "answer": 3,
+      "explanation": "The CSS color property sets the text color."
+    },
+    {
+      "id": 5,
+      "category": "CSS",
+      "question": "Which CSS layout system is one-dimensional?",
+      "options": ["Flexbox", "Grid", "Table", "Float"],
+      "answer": 0,
+      "explanation": "Flexbox is designed primarily for one-dimensional layouts."
+    },
+    {
+      "id": 6,
+      "category": "CSS",
+      "question": "Which property adds space inside an element's border?",
+      "options": ["margin", "padding", "outline", "gap"],
+      "answer": 1,
+      "explanation": "Padding creates space between content and its border."
+    },
+    {
+      "id": 7,
+      "category": "JavaScript",
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": ["varonly", "define", "let", "variable"],
+      "answer": 2,
+      "explanation": "let declares a block-scoped variable in JavaScript."
+    },
+    {
+      "id": 8,
+      "category": "JavaScript",
+      "question": "Which method selects an element by its ID?",
+      "options": [
+        "document.getClass()",
+        "document.query()",
+        "document.selectId()",
+        "document.getElementById()"
+      ],
+      "answer": 3,
+      "explanation": "getElementById() selects an element by its ID."
+    },
+    {
+      "id": 9,
+      "category": "JSON",
+      "question": "What does JSON stand for?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java Source Open Network",
+        "Joined System Object Names",
+        "Java Standard Output Notation"
+      ],
+      "answer": 0,
+      "explanation": "JSON stands for JavaScript Object Notation."
+    },
+    {
+      "id": 10,
+      "category": "JSON",
+      "question": "Which syntax represents an array in JSON?",
+      "options": ["{}", "[]", "()", "<>"],
+      "answer": 1,
+      "explanation": "JSON arrays use square brackets."
+    }
+  ]
+}
